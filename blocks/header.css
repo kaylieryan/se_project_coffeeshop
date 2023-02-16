@@ -15,7 +15,6 @@
 }
 
 .header__logo {
-  position: absolute;
   width: 125px;
   height: 142px;
   left: 30px;
@@ -24,7 +23,6 @@
 
 .header__title {
   max-width: 729px;
-  margin-top: 202px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -32,7 +30,7 @@
   line-height: 72px;
   position: relative;
   z-index: 1;
-  margin-bottom: 28px;
+  margin: 80px, 0px, 28px, 0px;
 }
 
 .header__span-accent {
@@ -50,13 +48,12 @@
   display: flex;
   flex-wrap: wrap;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
   position: relative;
-  margin: 0;
+  margin-right: 80px;
+  box-sizing: border-box;
 }
 
 .header__image {
@@ -74,7 +71,7 @@
   align-items: flex-end;
   position: absolute;
   width: 100%;
-  box-sizing: border-box;
+
   padding-left: 80px;
   padding-right: 80px;
   left: 0px;
@@ -86,6 +83,7 @@
   font-size: 16px;
   line-height: 20px;
   padding: 0;
+  margin: 0;
 }
 
 .header__hours {
@@ -101,5 +99,5 @@
   font-size: 16px;
   line-height: 20px;
   padding: 0;
-  right: 80px;
+  margin-right: 80px;
 }
