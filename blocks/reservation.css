@@ -1,0 +1,48 @@
+.reservation {
+  background-image: url(/images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #D9E7FF;
+}
+
+.reservation__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.reservation__form {
+
+}
+
+.form {
+
+}
+
+.form__fieldset {
+
+}
+
+.form__label {
+
+}
+
+.form__input {
+
+}
+
+.form__button {
+
+}
+
+.form__button:hover {
+
+}
+
+.form__input_type_checkbox {
+  
+}
