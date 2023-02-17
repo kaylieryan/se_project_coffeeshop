@@ -139,7 +139,7 @@
           </div>
         </section>
         <section class="recipes">
-          <h4 class="recipes__title">Recipes</h4>
+          <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:>
@@ -171,32 +171,108 @@
               <p class="recipes__video-time">~4min</p>
             </div>
           </div>
-        </section> 
+        </section>
         <section class="reservation">
-          <h5 class="reservation__title">Book a table</h5>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label">Name *</label>
-              <input class="form__input" type="text" placeholder="Name Surname" required />
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Name Surname"
+                required />
               <label class="form__label">Number of guests *</label>
-              <input class="form__input" type="number" placeholder="1-8" required />
+              <input
+                class="form__input"
+                type="number"
+                placeholder="1-8"
+                required />
               <label class="form__label">Date & time *</label>
-              <input class="form__input" type="datetime-local" name="datetime" required />
+              <input
+                class="form__input"
+                type="datetime-local"
+                name="datetime"
+                required />
               <label class="form__label">Your email *</label>
-              <input class="form__input" type="email" placeholder="email@email.com" required />
+              <input
+                class="form__input"
+                type="email"
+                placeholder="email@email.com"
+                required />
             </fieldset>
             <fieldset class="form__button">
               <button type="submit" class="form__button">Book a table</button>
-              <input type="checkbox" class="form__input form__input_type_checkbox" name="terms" id="terms" required />
-              <label for="terms" class="form__label">I agree with the terms of use</label>
-              
+              <input
+                type="checkbox"
+                class="form__input form__input_type_checkbox"
+                name="terms"
+                id="terms"
+                required />
+              <label for="terms" class="form__label"
+                >I agree with the terms of use</label
+              >
             </fieldset>
-              
           </form>
+        </section>
+        <section class="about">
+          <h2 class="about__title">About the coffeeshop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/practicum_logo.svg"
+            alt="practicum" />
+        </div>
+        <div class="footer__social-heading">
+          <h3 class="footer__social-heading">Social media</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a
+                class="footer__link"
+                href="https://www.facebook.com/practicum.by/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="footer__icon"
+                  src="./images/facebook.svg"
+                  alt="facebook"
+              /></a>
+            </li>
+            <li class="footer__list-item">
+              <a
+                class="footer__link"
+                href="https://www.instagram.com/practicum.by/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  class="footer__icon"
+                  src="./images/instagram.svg"
+                  alt="instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer__copyright">&copy; 2022 Kaylie Ryan</p>
+      </footer>
     </div>
   </body>
 </html>
