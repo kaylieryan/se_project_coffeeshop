@@ -2,7 +2,15 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: start;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-style: normal;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0 80px 0 80px;
+  
+  
 }
 
 .nav__links {
@@ -10,8 +18,10 @@
   align-items: center;
   column-gap: 20px;
   list-style: none;
-  margin-top: 30px;
-  margin-left: 80px;
+  margin: 30px 80px 0 0;
+  padding: ;
+
+
 }
 
 .nav__link {
