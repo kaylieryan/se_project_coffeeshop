@@ -1,14 +1,17 @@
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
-
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  box-sizing: border-box;
+  color: #ffffff;
+  
 }
 
 .footer__content {
 
+
 }
 
 .footer__logo {
-
+  
 }
 
 .footer__social-heading {
@@ -16,21 +19,21 @@
 }
 
 .footer__list {
-
 }
 
 .footer__list-item {
-
 }
 
 .footer__social-icon {
-
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 .footer__social-link {
-
 }
 
 .footer__social-link:hover {
-
+  color: #c1c1c1;
 }
+

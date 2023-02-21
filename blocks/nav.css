@@ -1,27 +1,17 @@
 .nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: flex-start;
   margin-top: 30px;
-  margin-right: 80px;
   font-style: normal;
   font-weight: 500;
   box-sizing: border-box;
-  padding: 0 80px 0 80px;
-  
-  
 }
 
 .nav__links {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  column-gap: 20px;
+  gap: 20px;
   list-style: none;
   margin: 30px 80px 0 0;
-  padding: ;
-
-
 }
 
 .nav__link {
@@ -32,6 +22,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .nav__link:hover {

@@ -5,6 +5,7 @@
   background-position: center;
   background-size: cover;
   padding: 100px 0;
+  
 }
 
 .menu__title {
@@ -14,56 +15,29 @@
   font-size: 44px;
   line-height: 52px;
   color: #ffffff;
-  margin-top: 0;
   max-width: 780px;
-  margin-left: 720px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
 }
 
 .menu__subtitle {
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
   margin-top: 24px;
-
-}
-
-.menu
-
-.menu__cards {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-top: 24px;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 24px;
+  
+  
+ 
 
-}
-
-.card {
-}
-
-.card__title {
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-}
-
-.card__list-item {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  list-style-type: none;
-}
-
-.card__list-divider {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
 }

@@ -3,46 +3,20 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #D9E7FF;
+  background-color: #d9e7ff;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #000000;
-}
-
-.reservation__form {
-
-}
-
-.form {
-
-}
-
-.form__fieldset {
-
-}
-
-.form__label {
-
-}
-
-.form__input {
-
-}
-
-.form__button {
-
-}
-
-.form__button:hover {
-
-}
-
-.form__input_type_checkbox {
-  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 100px;
 }
