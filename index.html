@@ -14,6 +14,8 @@
     <link rel="shortcut icon" href="favicon_circles.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
       rel="stylesheet" />
@@ -59,11 +61,10 @@
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-            <div class="header__address">
-              <p class="header__paragraph">
-                200 Success Avenue, The Town of Practicum
-              </p>
-            </div>
+          <div class="header__address">
+            <p class="header__paragraph">
+              200 Success Avenue, The Town of Practicum
+            </p>
           </div>
         </div>
       </header>
@@ -74,7 +75,6 @@
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
-
           <div class="menu__cards">
             <div class="card">
               <h3 class="card__title">Filter</h3>
@@ -149,7 +149,6 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-
           <div class="recipes__videos">
             <div class="recipes__video">
               <iframe
@@ -176,7 +175,7 @@
       </main>
       <section class="reservation" id="book-a-table">
         <h2 class="reservation__title">Book a table</h2>
-        <form class="form" class="reservation__form form">
+        <form class="form reservation__form">
           <fieldset class="form__fieldset">
             <label for="name" class="form__label">Name *</label>
             <input
@@ -211,11 +210,11 @@
               required />
 
             <button type="submit" class="form__button">Book a table</button>
-            <label class="form__label">
+            <label for="terms-of-use" class="form__label_type_checkbox">
               <input
                 type="checkbox"
                 id="terms-of-use"
-                class="form__input form__input_type_checkbox"
+                class="form__label_type_checkbox"
                 name="terms-of-use"
                 required />
 
@@ -253,19 +252,19 @@
             alt="practicum logo" />
 
           <div class="footer__social">
-            <h2 class="footer__social-heading">Social media</h2>
+            <h2 class="footer__social-header">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
                   <img
-                    class="footer__icon"
+                    class="footer__social-icon"
                     src="./images/facebook_white.svg"
                     alt="facebook logo" />
                   Facebook
                 </a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__social-icon" href="#">
+                <a class="footer__social-link" href="#">
                   <img
                     class="footer__social-icon"
                     src="./images/instagram_white.svg"
