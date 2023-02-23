@@ -1,6 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   width: 100%;
+  box-sizing: border-box;
 }
 
 .footer__content {
@@ -62,10 +63,4 @@
   padding-bottom: 60px;
   padding-left: 80px;
   color: #ffffff;
-}
-
-* {
-  outline: 1px solid #f00 !important;
-  opacity: 1 !important;
-  visibility: visible !important;
 }
