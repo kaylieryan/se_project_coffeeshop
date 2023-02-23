@@ -3,14 +3,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
-  width: 100%;
-  border: 2px solid red;
   row-gap: 100px;
   column-gap: 100px;
   max-width: 1300px;
+  padding-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 100px;
 }
 
 .card {
@@ -55,6 +53,8 @@
   display: flex;
   font-size: 16px;
   line-height: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
   border-bottom: 1px solid #ffffff;
   flex-grow: 1;
   font-family: "Noto Serif", "Times New Roman", serif;
