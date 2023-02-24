@@ -7,16 +7,6 @@
   margin-top: 80px;
 }
 
-.reservation__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-style: none;
-  margin-top: 80px;
-  margin-bottom: 120px;
-  padding: 0;
-}
-
 .form__fieldset {
   border: none;
   color: #838383;
