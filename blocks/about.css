@@ -2,16 +2,12 @@
   background-color: #0a2850;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   overflow: hidden;
   position: relative;
   padding-top: 100px;
   box-sizing: border-box;
-  
 }
 
 .about__title {
@@ -43,7 +39,6 @@
 
 .about__paragraph {
   gap: 20px;
-
 }
 
 .about__circle {
@@ -72,4 +67,3 @@
     transform: scale(1.2);
   }
 }
-
