@@ -1,9 +1,13 @@
 .reservation {
-  background-image: url(/images/background_reservation.svg);
+  background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: #d9e7ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: none;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 120px;
@@ -23,14 +27,9 @@
 }
 
 .reservation__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-style: none;
+  max-width: 385px;
   margin-top: 80px;
   margin-bottom: 120px;
-  padding: 0;
-}
-
-. {
+  margin: 0 auto;
+  margin-top: 80px;
 }

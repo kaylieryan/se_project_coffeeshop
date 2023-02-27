@@ -1,6 +1,6 @@
 .header {
   background-color: #ffffff;
-  background-image: url("../images/background_header.svg");
+  background-image: url(../images/background_header.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,7 +31,7 @@
   display: block;
   width: 100%;
   color: #2f80ed;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -83,8 +83,4 @@
   padding: 0;
   margin: 0;
   color: #6f6f6f;
-}
-
-.header__address {
-  align-items: flex-end;
 }

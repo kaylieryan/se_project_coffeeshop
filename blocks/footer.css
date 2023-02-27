@@ -29,6 +29,10 @@
   list-style-type: none;
 }
 
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .footer__social {
   display: flex;
   flex-direction: column;

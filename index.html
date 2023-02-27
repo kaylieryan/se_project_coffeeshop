@@ -12,11 +12,7 @@
     <meta name="keywords" content="html, css" />
     <meta name="author" content="KaylieRyan" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="shortcut icon" href="favicon_circles.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="favicon.ico" href="favicon_circles.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,7 +52,7 @@
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
         </p>
-        <imgf
+        <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
           alt="inside of Practicum coffee shop"
@@ -67,7 +63,7 @@
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class="header__address">
+          <div>
             <p class="header__paragraph">
               200 Success Avenue, The Town of Practicum
             </p>
@@ -182,82 +178,88 @@
             </div>
           </div>
         </section>
-      </main>
-      <section class="reservation" id="book-a-table">
-        <h2 class="reservation__title">Book a table</h2>
-        <form class="form reservation__form">
-          <fieldset class="form__fieldset">
-            <label for="name" class="form__label">Name *</label>
-            <input
-              class="form__input"
-              id="name"
-              type="text"
-              placeholder="Name Surname"
-              required
-            />
-            <label for="number-of-guests" class="form__label"
-              >Number of guests *</label
-            >
-            <input
-              class="form__input"
-              id="number-of-guests"
-              type="number"
-              placeholder="1-8"
-              min="1"
-              max="8"
-              required
-            />
-            <label class="form__label" for="date-and-time">Date & time *</label>
-            <input
-              class="form__input"
-              id="date-and-time"
-              type="datetime-local"
-              required
-            />
-            <label class="form__label" for="your-email">Your email *</label>
-            <input
-              class="form__input"
-              id="your-email"
-              type="email"
-              placeholder="email@email.com"
-              required
-            />
 
-            <button type="submit" class="form__button">Book a table</button>
-            <label for="terms-of-use" class="form__label-checkbox">
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
               <input
-                type="checkbox"
-                id="terms-of-use"
-                class="form__label-checkbox"
-                name="terms-of-use"
+                class="form__input"
+                id="name"
+                type="text"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="number-of-guests" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                class="form__input"
+                id="number-of-guests"
+                type="number"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+              <label class="form__label" for="date-and-time"
+                >Date & time *</label
+              >
+              <input
+                class="form__input"
+                id="date-and-time"
+                type="datetime-local"
+                required
+              />
+              <label class="form__label" for="your-email">Your email *</label>
+              <input
+                class="form__input"
+                id="your-email"
+                type="email"
+                placeholder="email@email.com"
                 required
               />
 
-              I agree with the terms of use
-            </label>
-          </fieldset>
-        </form>
-      </section>
-      <section class="about" id="about-the-coffeeshop">
-        <h2 class="about__title">About the coffeeshop</h2>
-        <div class="about__content">
-          <p class="about__paragraph">
-            Our coffee shop is located in the Practicum Library's hall. It
-            features 6 tables and free WiFi.
-          </p>
+              <button type="submit" class="form__button">Book a table</button>
+              <label
+                for="terms-of-use"
+                class="form__label form__label_checkbox"
+              >
+                <input
+                  type="checkbox"
+                  id="terms-of-use"
+                  class="form__input form__label_type_checkbox"
+                  name="terms-of-use"
+                  required
+                />
 
-          <p class="about__paragraph">
-            Our main mission is keeping guests cozy and energized.
-          </p>
-          <p class="about__paragraph">
-            Besides that, we try to reduce our environmental impact — so we
-            don't sell single-use cups. But you can buy one of our reusable
-            cups!
-          </p>
-        </div>
-        <div class="about__circle"></div>
-        <div class="about__circle about__circle_animation_blurred"></div>
-      </section>
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
+        <section class="about" id="about-the-coffeeshop">
+          <h2 class="about__title">About the coffeeshop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
+      </main>
       <footer class="footer">
         <div class="footer__content">
           <img
