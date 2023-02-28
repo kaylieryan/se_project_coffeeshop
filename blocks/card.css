@@ -29,16 +29,16 @@
   color: #ffffff;
 }
 
-.card__list:last-child {
-  margin-bottom: 0;
-}
-
 .card__list-item {
   display: flex;
   list-style-type: none;
   justify-content: center;
   margin-bottom: 16px;
   color: #ffffff;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .card__list-divider {

@@ -27,7 +27,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  margin: 119px 80px 173px auto;
+  margin: 0 80px 173px auto;
   color: #ffffff;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
@@ -35,8 +35,11 @@
 }
 
 .about__paragraph {
-  margin: 0 0 20px 0;
+  margin-bottom: 0;
+}
 
+.about__paragraph:last-child {
+  margin-bottom: 20px;
 }
 
 .about__circle {

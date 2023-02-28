@@ -24,12 +24,11 @@
   justify-content: center;
   max-width: 300px;
   margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .reservation__form {
-  max-width: 385px;
-  margin-top: 80px;
+  width: 385px;
   margin-bottom: 120px;
   margin: 0 auto;
-  margin-top: 80px;
 }
