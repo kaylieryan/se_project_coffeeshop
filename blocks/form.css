@@ -24,7 +24,7 @@
   margin-bottom: 8px;
 }
 
-.form__input--type_checkbox {
+.form__input_type_checkbox {
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;
