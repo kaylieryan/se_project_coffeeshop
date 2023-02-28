@@ -15,18 +15,19 @@
 }
 
 .form__label {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 8px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  padding-bottom: 8px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+
 
 }
 
-.form__label_type_checkbox {
+.form__input_type_checkbox {
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;

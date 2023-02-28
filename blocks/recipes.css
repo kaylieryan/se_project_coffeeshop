@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
-  padding: 100px 80px 100px 80px;
+  padding: 100px 80px 215px 80px;
 }
 
 .recipes__title {
@@ -34,7 +34,6 @@
   gap: 40px;
   padding: 0;
   margin: 0;
-  margin-bottom: 215px;
 }
 
 .recipes__video {
@@ -58,7 +57,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  margin-bottom: 0;
+  margin: 24px 0 0 0;
   font-size: 20px;
   line-height: 30px;
   font-family: "Inter", "Arial", sans-serif;
