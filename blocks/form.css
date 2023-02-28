@@ -27,7 +27,7 @@
   color: #000000;
 }
 
-.form__checkbox {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   border-radius: 2px;
