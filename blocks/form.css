@@ -16,25 +16,25 @@
 
 .form__label {
   display: flex;
-  justify-content: flex-start;
   align-items: column;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  gap: 12px;
   margin-bottom: 8px;
   color: #000000;
 }
 
-.form__label_type_checkbox {
+.form__checkbox {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;
   padding: 0;
-  margin: 0;
+  margin-left: 0;
+  margin-right: 12px;
 }
 
 .form__input {
