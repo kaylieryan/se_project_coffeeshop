@@ -19,24 +19,26 @@
   justify-content: flex-start;
   flex-direction: row;
   font-family: "Inter", "Arial", sans-serif;
+  color: #000000;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 8px;
-  color: #000000;
+  margin-bottom: 0;
   gap: 12px;
 }
 
-.form__checkbox {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;
   padding: 0;
-  margin-left: 60px;
+  margin: 0;
+  gap: 12px;
+  font-family: "Inter", "Arial", sans-serif;
+  color: #000000;
 }
 
 .form__input {
@@ -53,6 +55,7 @@
   padding-left: 16px;
   padding-right: 16px;
   color: #838383;
+  margin-top: 8px;
 }
 
 .form__button {

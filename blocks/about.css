@@ -6,7 +6,7 @@
   flex-direction: row;
   overflow: hidden;
   position: relative;
-  padding: 100px;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -17,7 +17,8 @@
   line-height: 52px;
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 80px;
+  padding-left: 80px;
+  margin: 100px 0 0 0;
   z-index: 1;
   color: #ffffff;
   font-family: "Inter", "Arial", sans-serif;
@@ -28,7 +29,9 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  margin: 0 80px 173px auto;
+  padding-top: 119px;
+  padding-right: 80px;
+  margin: 0 0 173px auto;
   color: #ffffff;
   font-family: "Noto Serif", "Times New Roman", serif;
 }
@@ -39,6 +42,10 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
