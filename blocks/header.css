@@ -59,7 +59,7 @@
 
 .header__footer {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
@@ -83,10 +83,4 @@
   padding: 0;
   margin: 0;
   color: #6f6f6f;
-}
-
-.header__address {
-  display: flex;
-  align-self: flex-end;
-  margin: 0;
 }
