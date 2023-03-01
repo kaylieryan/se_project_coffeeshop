@@ -23,6 +23,7 @@
   line-height: 20px;
   display: flex;
   align-items: center;
+  transition: #000000 1s linear;
 }
 
 .nav__link:hover {

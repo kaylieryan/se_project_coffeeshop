@@ -76,11 +76,17 @@
 
 .header__paragraph {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
   padding: 0;
   margin: 0;
   color: #6f6f6f;
+}
+
+.header__address {
+  display: flex;
+  align-self: flex-end;
+  margin: 0;
 }
